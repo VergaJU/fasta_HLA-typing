@@ -87,7 +87,7 @@ class get_exons:
                 return seq2_base    
 
 
-
+# TODO: finish exon sequence and test it
    def exon_sequence(self, indices=numpy.ndarray, exon=str) -> dict[str,  str]:
         """
         Given the exon number and the indices, it return the consensus sequence  based on the quality scores
